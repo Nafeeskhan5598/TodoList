@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+#content{
+    width: 964px;
+background-color: aqua;
+margin-left: 437px;
+margin-top: 112px;
+    
+}
+#header{
+     background-color: cadetblue; 
+     height: 112px;
+}
+h1{
+    font-size: 53px;
+/* align-content: inherit; */
+text-align: center;
+}
+.name{
+    font-size: 73px;
+}
+#fname:hover{
+    border: 5px solid rgb(255, 184, 5);
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}
+
+#fname{
+    height: 55px;
+    width: 682px;
+    margin-left: 16px;  
+    font-size: 55px;
+}
+#list{
+    font-size: 67px;
+}
+#button1{
+    height: 66px;
+width: 148px;
+border-radius: 14px;
+font-size: 39px;
+}
+#button1:hover{
+    border: 5px solid rgb(5, 255, 5);
+    color: rgb(5, 255, 5);
+    background: rgb(0, 0, 0);
+}
+#button2{
+    height: 66px;
+width: 148px;
+border-radius: 14px;
+font-size: 39px;
+}
+#button2:hover{
+    border: 5px solid red;
+    color: red;
+    background: rgb(0, 0, 0);
+    box-shadow: rgb(5, 255, 5);
+}
+/* #btnn:hover{
+    border: 5px solid red;
+    color: red;
+    background: rgb(0, 0, 0);
+    box-shadow: rgb(5, 255, 5);
+} */

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/indexin.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div  id="content">
+    <div id="header">
+<h1>Todo List</h1>
+
+</div>
+<div>
+    <form action="">
+        <label for="" class="name">Enter Text:</label><input type="text" name="txt" id="fname">
+        <!-- <label for="">class</label><input type="text" name="text" id="class"> -->
+
+    </form>
+    <div id="list">
+        <ol id="ol" >
+
+        </ol>
+
+        
+    
+    <button type="button" onclick="btn1()" id="button1">display</button>
+    <button type="button" onclick="btn2()" id="button2">delete</button>
+    </div>
+    </div>
+</div>
+    <script>
+
+function btn1(){
+    let userValue = document.getElementById('fname').value
+    document.getElementById('ol').innerHTML += `<li>${userValue}<button type="button" 
+        onclick="del(event)"style = "font-size: 57px" >del</button></li>`
+}
+function btn2(){
+    let userValue = document.getElementById('ol').innerHTML = ' '
+}
+function del(event){
+    event.currentTarget.parentNode.remove();
+}
+
+
+
+let car = document.getElementById('demo')
+car.innerHTML = car.innerText.lastIndexOf()
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // function btn1() {
+    //     let userValue = document.getElementById('fname').value
+    //     document.getElementById('ol').innerHTML += `<li>${userValue} 
+    //         <button type="button" onclick="del(event)">del</button></li>`
+    //   }
+    //   function btn2() {
+      
+    //     let userValue = document.getElementById("ol").innerHTML = " ";
+    //   }
+      
+      
+    //   function del(event) {
+    //     event.currentTarget.parentNode.remove()
+    //   }
+
+
+
+
+
+
+
+
+      // let userValue = document.getElementById("delete").innerHTML = ` `
+      // function del2() {
+      //   let userValue = document.getElementById("delete2").innerHTML = ` `
+      // }
+      // function del3() {
+      //   document.getElementById("delete3").remove()
+      // }
+      
+      </script>
+      </body>
+      </html>
